@@ -1,0 +1,1230 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Metaverse XR/Documents/GitHub/Interntank
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58209
+Successfully changed project path to: C:/Users/Metaverse XR/Documents/GitHub/Interntank
+C:/Users/Metaverse XR/Documents/GitHub/Interntank
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 55.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Metaverse XR/Documents/GitHub/Interntank/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003322 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (0.8 MB). Loaded Objects now: 4452.
+Memory consumption went from 174.1 MB to 173.4 MB.
+Total: 2.855200 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.214100 ms  DeleteObjects: 0.250800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6173.893953 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_plants01_4.asset
+  artifactKey: Guid(46fda0bc24fbf1a4ab43b2eb89875d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_plants01_4.asset using Guid(46fda0bc24fbf1a4ab43b2eb89875d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b2c27f0367a8b75197f9adb618eb25a') in 0.155630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(ice)_0.asset
+  artifactKey: Guid(0b67662ddc913684f99d3c29938c7697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(ice)_0.asset using Guid(0b67662ddc913684f99d3c29938c7697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a39c7c33582fc37388a4cf5a21a415f7') in 0.008490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px_3.asset
+  artifactKey: Guid(d2d35529afcb8cb429ecd19faad6891a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px_3.asset using Guid(d2d35529afcb8cb429ecd19faad6891a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f3382a28df1e59bff643a9dd7c7870c') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(fall).png
+  artifactKey: Guid(ceb3b251f8f266d4b9a051832f867d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(fall).png using Guid(ceb3b251f8f266d4b9a051832f867d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b8851d58850d0a92efe6c638e6bc608') in 0.073839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_0.asset
+  artifactKey: Guid(b677a5b4ec471364e8cabd0efb04618e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_0.asset using Guid(b677a5b4ec471364e8cabd0efb04618e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19ff908c9cc6c042d7ab6d0a6e6b8417') in 0.010868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_desert_sunset_1024.png
+  artifactKey: Guid(2d90c333e68fff641828864d6667fda6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/backgrounds/BG_desert_sunset_1024.png using Guid(2d90c333e68fff641828864d6667fda6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2eab68e5d9db388121b78d6df77de4e') in 0.016567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_8.asset
+  artifactKey: Guid(1cb3b1434517d5b4e95a0ac0ddc35903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_8.asset using Guid(1cb3b1434517d5b4e95a0ac0ddc35903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97e2e25e5d5199cc93da93a1218224ba') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_3.asset
+  artifactKey: Guid(708e4ee4d14b8974588dbcec09285f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_3.asset using Guid(708e4ee4d14b8974588dbcec09285f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c80cd357311289ae1c2fac53199cfcba') in 0.008101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TooCubeForest/demoScenes/demo.unity
+  artifactKey: Guid(f3c865bd525f78f44ae5026384b71f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/demoScenes/demo.unity using Guid(f3c865bd525f78f44ae5026384b71f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1c2029bf34f98c8f0640774c943b2e') in 0.007024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(fall)01_128px_1.asset
+  artifactKey: Guid(389c67232cb80b54f8532cf18ac96b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(fall)01_128px_1.asset using Guid(389c67232cb80b54f8532cf18ac96b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59088f645deb9e8fcfdb518942abbf96') in 0.009545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_desert_noon2_1024.png
+  artifactKey: Guid(a1238f3300f40aa41934c025c0d9a8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/backgrounds/BG_desert_noon2_1024.png using Guid(a1238f3300f40aa41934c025c0d9a8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c811c291d864ebd09aa17e8862b33cc6') in 0.015938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px_2.asset
+  artifactKey: Guid(63070e8879642f046b7c9ebadceaac77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px_2.asset using Guid(63070e8879642f046b7c9ebadceaac77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5801992d131fb4494f9469c9eb577531') in 0.016423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/sample.png
+  artifactKey: Guid(d9377f6f2ddac5a4ab62f35ced11d1ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/sample.png using Guid(d9377f6f2ddac5a4ab62f35ced11d1ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '175a34f916795e029f5e66a459785865') in 0.014475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_plants02_3.asset
+  artifactKey: Guid(f7afdf27cc4951a49bbe61e496568d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_plants02_3.asset using Guid(f7afdf27cc4951a49bbe61e496568d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87ca3b0b9079bfe6d09ee8cb9321dc9d') in 0.010580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animation/TackIdle.anim
+  artifactKey: Guid(4402a0d8c2a333c4198e39849677d70a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/TackIdle.anim using Guid(4402a0d8c2a333c4198e39849677d70a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '783756c84cfef5d7e86bfaa899eeddfb') in 0.012316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_cave_1024.png
+  artifactKey: Guid(04aa30e7bae8e5c4bb6718fe6142845d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/backgrounds/BG_cave_1024.png using Guid(04aa30e7bae8e5c4bb6718fe6142845d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5fc3be17973aae087af13f9f396e597') in 0.018166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_6.asset
+  artifactKey: Guid(574aeb50b3aee0e41b97f5bd0d356a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_6.asset using Guid(574aeb50b3aee0e41b97f5bd0d356a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97d7f073a062eb2b68f456d77f682581') in 0.009740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TooCubeForest/demoScenes/Movement.cs
+  artifactKey: Guid(1d2aa0f9a1c470443898ff1d5f1f9afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/demoScenes/Movement.cs using Guid(1d2aa0f9a1c470443898ff1d5f1f9afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3937158fefc14b2afcce4bb1b364e8bb') in 0.013578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_7.asset
+  artifactKey: Guid(0e5791676a70cc3488e3c7db7b364641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_7.asset using Guid(0e5791676a70cc3488e3c7db7b364641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1dc459b1725d0970f42b443a7b097d3') in 0.008401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px_3.asset
+  artifactKey: Guid(4f67c6bfa0cf5ce43ad2c372d6b3aabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px_3.asset using Guid(4f67c6bfa0cf5ce43ad2c372d6b3aabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a02e3ba620d2c5e6bf6c53a1f56a0eb') in 0.009216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_0.asset
+  artifactKey: Guid(cc9b7fd15fa00014d8b9cf2232d6b1b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_0.asset using Guid(cc9b7fd15fa00014d8b9cf2232d6b1b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85ecc29c69709c3ea74323c5cc078fc6') in 0.009678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Kenney_topdownTanks/license.txt
+  artifactKey: Guid(918af578ffa0b254d986bb89f93e04b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/license.txt using Guid(918af578ffa0b254d986bb89f93e04b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39eb3312940c5ae551422a52e8dae4cf') in 0.010096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(snow).png
+  artifactKey: Guid(ca119a95dd3efef46b1a7965d582f07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(snow).png using Guid(ca119a95dd3efef46b1a7965d582f07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d555db90e73d4494554d68fbbb83463') in 0.018393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_10.asset
+  artifactKey: Guid(bb8ab7c047d0a524786d79392cc83790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_10.asset using Guid(bb8ab7c047d0a524786d79392cc83790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7649e30efaf0c412ae0ba124f7196320') in 0.017092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_fragileBlocks_128px.png
+  artifactKey: Guid(de3954785eee0014bad73f8115856248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_fragileBlocks_128px.png using Guid(de3954785eee0014bad73f8115856248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21fc2c81e9db2bdc8e8bfd40f58f56d0') in 0.021764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_plants02.png
+  artifactKey: Guid(07080ce0296c1aa48848753ed31eaef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_plants02.png using Guid(07080ce0296c1aa48848753ed31eaef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c9ab7f010e068df021e9c7cfd398ca5') in 0.020394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px_2.asset
+  artifactKey: Guid(7d69edbcd70cba740a723d269bccaa1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px_2.asset using Guid(7d69edbcd70cba740a723d269bccaa1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c12278dcf8f932d8f1a5713d7ec5de9f') in 0.009146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_3.asset
+  artifactKey: Guid(d314ad04e90c1b34e93f84e9f0251c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_3.asset using Guid(d314ad04e90c1b34e93f84e9f0251c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd83b5e89cc37eaf69b596ce928f63ec9') in 0.008019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_stones03_128px_2.asset
+  artifactKey: Guid(fb253d416da382f4a9d7eed00eb1b430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_stones03_128px_2.asset using Guid(fb253d416da382f4a9d7eed00eb1b430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f0567eb146a62da0809fef5447addd8') in 0.008567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_trees_2.asset
+  artifactKey: Guid(60388c0a259b0e541b25e5dd174bba96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_trees_2.asset using Guid(60388c0a259b0e541b25e5dd174bba96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e6ff40169d53b9dd24e6ef4122ca12f') in 0.008149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px.png
+  artifactKey: Guid(1b63bdb5079a21140a015e2f681f08bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px.png using Guid(1b63bdb5079a21140a015e2f681f08bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '540ac0180f40082713a62c60ed669a8b') in 0.031804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_stones02_128px_1.asset
+  artifactKey: Guid(4bc17b66d3e70e24baeeba80cce001c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_stones02_128px_1.asset using Guid(4bc17b66d3e70e24baeeba80cce001c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31af70c7aeb85d0486f0c95ce62a7dea') in 0.008611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_woodenWalls_platforms_2.asset
+  artifactKey: Guid(3b7778e3777539641ad41b870c4e4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_woodenWalls_platforms_2.asset using Guid(3b7778e3777539641ad41b870c4e4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2f1c61c7ea619b7ec6036785a9095d7') in 0.009533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_stones03_128px_0.asset
+  artifactKey: Guid(89fb922471529b94d9f9833f4aa9ad6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_stones03_128px_0.asset using Guid(89fb922471529b94d9f9833f4aa9ad6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff1abf7049bea409dfe25d55d8722981') in 0.010098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_trees.png
+  artifactKey: Guid(9a24dfc21c315a14786e932f86148da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_trees.png using Guid(9a24dfc21c315a14786e932f86148da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '628e69b442f5323db6461a8960123b05') in 0.024783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_stones03_128px.png
+  artifactKey: Guid(7c690a34fba9c994b842ff38ee788cd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_stones03_128px.png using Guid(7c690a34fba9c994b842ff38ee788cd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b72a4e8b0b20e7436d7c9e1fb15315bd') in 0.034005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_woodenThorns_2.asset
+  artifactKey: Guid(b02f566b5b944e843bd515a7fc33fd38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_woodenThorns_2.asset using Guid(b02f566b5b944e843bd515a7fc33fd38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd913df5ff4430d72531a08e59ac6b643') in 0.010531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(fall)_128px_2.asset
+  artifactKey: Guid(594288d84329ba34e91f5fc3003774f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(fall)_128px_2.asset using Guid(594288d84329ba34e91f5fc3003774f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef89abdb65b9b4e54f21524021b9d05') in 0.010015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(spring)_128px_2.asset
+  artifactKey: Guid(84b7054a1680b1e4aa16c7d5e70926a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(spring)_128px_2.asset using Guid(84b7054a1680b1e4aa16c7d5e70926a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28d2cb336b4f2a57cdf3a49a0b99b7ca') in 0.008732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px_4.asset
+  artifactKey: Guid(e8bf920b1ced09249a5b3a3c713700f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px_4.asset using Guid(e8bf920b1ced09249a5b3a3c713700f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '166896bf65bca657e2792e9c84302a5c') in 0.009577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_woodenWalls_platforms_0.asset
+  artifactKey: Guid(439014d2cab646d4f98129bfe22bceea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_woodenWalls_platforms_0.asset using Guid(439014d2cab646d4f98129bfe22bceea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc4d874ca578d01d8a66ad70dde8c237') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_trees_3.asset
+  artifactKey: Guid(720a9d3f100648447ad440893de5d361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_trees_3.asset using Guid(720a9d3f100648447ad440893de5d361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55a37362c3a9606d6df61ee72cd5b1a9') in 0.008738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_128px.png
+  artifactKey: Guid(94b9aae5592f1fa48a1f78e8ed6f50f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_128px.png using Guid(94b9aae5592f1fa48a1f78e8ed6f50f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9d295a8605399ae335e1b50a04e85e8') in 0.031587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(ice).png
+  artifactKey: Guid(019355d90503eaf449da0b4765ccec4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(ice).png using Guid(019355d90503eaf449da0b4765ccec4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51dd9ca740218e5fe5b88ffbd3bb1227') in 0.022533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(snow)_0.asset
+  artifactKey: Guid(89e8e7aebe680f14ab58f140356307ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(snow)_0.asset using Guid(89e8e7aebe680f14ab58f140356307ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '696da1878f347b4f7fd9e129e873130e') in 0.008608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_2.asset
+  artifactKey: Guid(7e06d994fbf29aa448452c9966c6b04d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(summer)01_128px_2.asset using Guid(7e06d994fbf29aa448452c9966c6b04d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b15ed36e47be1e8de7e46739239a3101') in 0.008379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(spring)_1.asset
+  artifactKey: Guid(3336f5dbe61be2a4d874dffc59ba0cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(spring)_1.asset using Guid(3336f5dbe61be2a4d874dffc59ba0cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79cc299214e62aed21846bc855941928') in 0.007592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px.png
+  artifactKey: Guid(83c2725403972d94a913c6549e48b03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px.png using Guid(83c2725403972d94a913c6549e48b03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8cff7d25f5c70c07517f10db0e4946c') in 0.023655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_cave2_1024.png
+  artifactKey: Guid(9c82b6ad87c042348aacc81b6fadcc87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/backgrounds/BG_cave2_1024.png using Guid(9c82b6ad87c042348aacc81b6fadcc87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '073eeb11ffa09fca70c423088511f6a5') in 0.024312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(fall)01_128px_3.asset
+  artifactKey: Guid(f721ee7e2127f40439ffb383a6f465be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(fall)01_128px_3.asset using Guid(f721ee7e2127f40439ffb383a6f465be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd1848eba45b987edb8201474a100e68') in 0.008723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_trees_4.asset
+  artifactKey: Guid(2f580e516d77fcd46badabdd860f2e0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_trees_4.asset using Guid(2f580e516d77fcd46badabdd860f2e0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8818bf4840bc48d6913aa10c743478a2') in 0.009074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_signs_11.asset
+  artifactKey: Guid(2434e30dbf83fc5479e46feae36a11fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_signs_11.asset using Guid(2434e30dbf83fc5479e46feae36a11fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d857c7cc52a6b95cbff015e825ff90') in 0.008535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_blue_128px_2.asset
+  artifactKey: Guid(d844b869f118b92459bb0708c954af41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_blue_128px_2.asset using Guid(d844b869f118b92459bb0708c954af41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cf2900c8dfec6c0bd0f05e33d9c5539') in 0.009699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_trees_1.asset
+  artifactKey: Guid(ef2735fd90721db4988f75acf275f0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_trees_1.asset using Guid(ef2735fd90721db4988f75acf275f0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e8bf4f51cce651315aa3c6bddd882e4') in 0.009028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_wood01_128px.png
+  artifactKey: Guid(a5bb34aa5cc0e694fb21117e16dd74b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_wood01_128px.png using Guid(a5bb34aa5cc0e694fb21117e16dd74b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d94116b6a970b153905d31cfa64131b') in 0.018539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_3.asset
+  artifactKey: Guid(4a9b5b9ff7ab7024d8336fde78cb94d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_3.asset using Guid(4a9b5b9ff7ab7024d8336fde78cb94d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9c5bb0563ccbd223bc420bd5b1649c2') in 0.008176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_1.asset
+  artifactKey: Guid(9135ce38c4f254247b7d771b3c800107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_1.asset using Guid(9135ce38c4f254247b7d771b3c800107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '697725c590fca1cace456d0536bf0b4d') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(spring)_128px.png
+  artifactKey: Guid(6e93bb5a1c5e9b34fbde68b8897a27d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(spring)_128px.png using Guid(6e93bb5a1c5e9b34fbde68b8897a27d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9c205a058f518b855ac7b6b68dd4c6e') in 0.020669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_128px_3.asset
+  artifactKey: Guid(7959bc86ee95ac64bb81b94a2de72bea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_128px_3.asset using Guid(7959bc86ee95ac64bb81b94a2de72bea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2be65eb0573b60d4af04fae3b8a14e3') in 0.016724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_3.asset
+  artifactKey: Guid(d3a49ceaca29eb2479860451222b6f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_3.asset using Guid(d3a49ceaca29eb2479860451222b6f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dac53f2846390ae1bf5123f58e56785') in 0.008365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_red_128px_1.asset
+  artifactKey: Guid(814a25ee82ffdca42859768ef0b5d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_red_128px_1.asset using Guid(814a25ee82ffdca42859768ef0b5d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea60f59f49ef8c0b699d3baf02931665') in 0.011423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_gray_128px_3.asset
+  artifactKey: Guid(7db9f8f96ef770e4fb93c7280ec98a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_gray_128px_3.asset using Guid(7db9f8f96ef770e4fb93c7280ec98a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51e6e3f906fc2b16f4eafb38908a8505') in 0.008016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(fall)_128px_1.asset
+  artifactKey: Guid(d615fd57598f85c44baec0eedffc9bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(fall)_128px_1.asset using Guid(d615fd57598f85c44baec0eedffc9bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f6fc339847c5f685089f06a0ac4a913') in 0.009162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_red_128px_0.asset
+  artifactKey: Guid(64c091c16d878c24bb8082bd0ac0d075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_red_128px_0.asset using Guid(64c091c16d878c24bb8082bd0ac0d075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f0274fcb9c7c367e0599ac4c61f1e56') in 0.009359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(summer)_128px_0.asset
+  artifactKey: Guid(80d1bb57c33e5334bb89c77b947b1d34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(summer)_128px_0.asset using Guid(80d1bb57c33e5334bb89c77b947b1d34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab6db9cddf478bc8da1827aa280a30df') in 0.009638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_gray_128px_2.asset
+  artifactKey: Guid(5c2d8f63da07d9a46a6ceeebfbace01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_gray_128px_2.asset using Guid(5c2d8f63da07d9a46a6ceeebfbace01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '994d1f7eae928abf69ffa723c7c01700') in 0.009235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_red_128px.png
+  artifactKey: Guid(583d4840bcef7784a89ae576e0bf6e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_red_128px.png using Guid(583d4840bcef7784a89ae576e0bf6e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3d16c3ad94ae3fc59a97dcacb04af89') in 0.021976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_0.asset
+  artifactKey: Guid(3412b7ab5f9cf82409f7defe5af390bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_0.asset using Guid(3412b7ab5f9cf82409f7defe5af390bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d147bd6ecef6886806aa4152662831b') in 0.008912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_snow_128px_4.asset
+  artifactKey: Guid(9a04c38e71192324fa9d3722d9c6c2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_snow_128px_4.asset using Guid(9a04c38e71192324fa9d3722d9c6c2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3e1ff58e7d5cf741e158e7a4d16a5e0') in 0.008773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_128px_3.asset
+  artifactKey: Guid(a91d1b8d209b653439e694d2b559c53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_dirt_128px_3.asset using Guid(a91d1b8d209b653439e694d2b559c53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9fb0d716daa91d1a4ea376ff65dc90a') in 0.008075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_5.asset
+  artifactKey: Guid(2af937b7fb11e7a45a3b87090d7ebc2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px_5.asset using Guid(2af937b7fb11e7a45a3b87090d7ebc2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8133c981f40839bb8d0d0bb95475f98') in 0.035263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_red_128px_2.asset
+  artifactKey: Guid(82e74aa4aeaab21488642baf3858466a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_red_128px_2.asset using Guid(82e74aa4aeaab21488642baf3858466a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4c13a621fbf5dee32f75e26ec87c58f') in 0.009663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_2.asset
+  artifactKey: Guid(9975383383397c84699b98607ec7a07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_2.asset using Guid(9975383383397c84699b98607ec7a07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef019d6cd197c75bf052871e31236788') in 0.015096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_128px_1.asset
+  artifactKey: Guid(2f70c4bc8f3b6204a8847947b95871dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_128px_1.asset using Guid(2f70c4bc8f3b6204a8847947b95871dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b9531b82cbf14b44e8f16b356164d8') in 0.011316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_snow_128px_5.asset
+  artifactKey: Guid(99fff40fe5e1dba4fb8e532abea8091c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_snow_128px_5.asset using Guid(99fff40fe5e1dba4fb8e532abea8091c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8849e6ae1ab057503b666f0b45d592ab') in 0.008386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_red_128px.png
+  artifactKey: Guid(ebbc8a7347a0db44c80e074e7d90ddd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_red_128px.png using Guid(ebbc8a7347a0db44c80e074e7d90ddd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb1a253318e3c01de113c6a05ad972e9') in 0.021738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(fall)_128px_1.asset
+  artifactKey: Guid(923c23c2c61a8bb4eb950302de482b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(fall)_128px_1.asset using Guid(923c23c2c61a8bb4eb950302de482b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5792eeeae7f29e62b397ac0a97428fb5') in 0.009655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_1.asset
+  artifactKey: Guid(0e40d450ff05cd24298476a03d02bfb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_1.asset using Guid(0e40d450ff05cd24298476a03d02bfb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd0194818df3c2cef09a75cc621ecea4') in 0.009110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px_0.asset
+  artifactKey: Guid(291abe3ee10c0cf4d83b63f807397835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_grass(summer)_128px_0.asset using Guid(291abe3ee10c0cf4d83b63f807397835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e3d6b7ef6d16e539c5f528c2c874dca') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_wood01_128px_2.asset
+  artifactKey: Guid(3850751d28a92ce499fe95e51d75e3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_wood01_128px_2.asset using Guid(3850751d28a92ce499fe95e51d75e3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '651dd24ea47d4df0f4d684775a301a4b') in 0.009191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Obstacles/sandbagBrown.png
+  artifactKey: Guid(0b25c1a224b5b6943911aa0452310f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Obstacles/sandbagBrown.png using Guid(0b25c1a224b5b6943911aa0452310f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d7e29e0a8a081d2b8bd167d293248b3') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletSilverSilver.png
+  artifactKey: Guid(83bc770e2e9cec74797c3025558c915e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletSilverSilver.png using Guid(83bc770e2e9cec74797c3025558c915e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '663ef720cb68c411579a807aeadfe569') in 0.019934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Obstacles/barrelGrey_up.png
+  artifactKey: Guid(b1e74b888bfa3d94ea80b4cce99d2264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Obstacles/barrelGrey_up.png using Guid(b1e74b888bfa3d94ea80b4cce99d2264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c1858396b7e643cf8f12c6139f93eb') in 0.012517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Obstacles/barrelGrey_side.png
+  artifactKey: Guid(de5b7a1d8a6b10147bab8b5926c51d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Obstacles/barrelGrey_side.png using Guid(de5b7a1d8a6b10147bab8b5926c51d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79790c0c72eec068805c18fae8534d78') in 0.013243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeOrange4.png
+  artifactKey: Guid(642e13dd0b0608c40991f890ca9caa41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeOrange4.png using Guid(642e13dd0b0608c40991f890ca9caa41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb2674cb42022b505f8d7a80b4ba52fc') in 0.013617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletSilver_outline.png
+  artifactKey: Guid(609033d3a88086d45be2582edb4232e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletSilver_outline.png using Guid(609033d3a88086d45be2582edb4232e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '660d339f143f72aaa10402ddd24a1b85') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Obstacles/barrelRed_side.png
+  artifactKey: Guid(e43180ce2e69b3147829cef3c436b89c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Obstacles/barrelRed_side.png using Guid(e43180ce2e69b3147829cef3c436b89c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '704267ce3f5d18b169cdf9ab254d74b1') in 0.013963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletGreenSilver_outline.png
+  artifactKey: Guid(2b0572409a0665847be8d035c9c64a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletGreenSilver_outline.png using Guid(2b0572409a0665847be8d035c9c64a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0415ff8dd056b617584164f0429cb97') in 0.022829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletBlueSilver.png
+  artifactKey: Guid(8065d9b122354134885edd3014013b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletBlueSilver.png using Guid(8065d9b122354134885edd3014013b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cf9feda115472b29e31224033287fe5') in 0.011597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletYellow.png
+  artifactKey: Guid(2cd41da89ec92ae4c88d03f20edf0fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletYellow.png using Guid(2cd41da89ec92ae4c88d03f20edf0fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adfb3642740c45988c83024d3d740397') in 0.013671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey5.png
+  artifactKey: Guid(35f950c39f1e59a45967d0cd7f4de59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey5.png using Guid(35f950c39f1e59a45967d0cd7f4de59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7624948b7a4a9ea3b8cdbedafde1f0a') in 0.015541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletRed_outline.png
+  artifactKey: Guid(2eebb59989d541a42a721864c6492443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletRed_outline.png using Guid(2eebb59989d541a42a721864c6492443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd50f139de652aad6604aef793f684ff7') in 0.013921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey1.png
+  artifactKey: Guid(0728a50be63aa8345bfe552c8fb13fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey1.png using Guid(0728a50be63aa8345bfe552c8fb13fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39c62b6d3f3760e789b05bfd4632ef05') in 0.013934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_wood01_128px.png
+  artifactKey: Guid(96c11b0153c960243b1b1919a489f5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_wood01_128px.png using Guid(96c11b0153c960243b1b1919a489f5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaaf676f2cf2c751124615ed88088865') in 0.028986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_wood02_128px_1.asset
+  artifactKey: Guid(91f222389d3de2440bfcfeb4a6ab8950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_wood02_128px_1.asset using Guid(91f222389d3de2440bfcfeb4a6ab8950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f6fc2422f8f745defca242ed464614d') in 0.008447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_wood02_128px_2.asset
+  artifactKey: Guid(7dc378803ec4c5a4a905aa6b18ce5fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_wood02_128px_2.asset using Guid(7dc378803ec4c5a4a905aa6b18ce5fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4577a2f9ff1e1ab864fd9c612dc7ef25') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Environment/treeLarge.png
+  artifactKey: Guid(e0b8807ed9a439c469fe3fe767dfd7ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Environment/treeLarge.png using Guid(e0b8807ed9a439c469fe3fe767dfd7ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f636c49e71960ca6f7346f5331e270a7') in 0.015110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletGreen.png
+  artifactKey: Guid(f6dab37bce594fb4dbf1f0d3b5809ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletGreen.png using Guid(f6dab37bce594fb4dbf1f0d3b5809ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95e02118a303175773594f05acefff3b') in 0.013226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_wood02_128px_2.asset
+  artifactKey: Guid(8dd53b1bc8e4280458a0e7826f5f9456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_wood02_128px_2.asset using Guid(8dd53b1bc8e4280458a0e7826f5f9456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880fec8f22a4e470642d53e4c2b5c4da') in 0.008016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletBlueSilver_outline.png
+  artifactKey: Guid(dff42cb9db8e6f047becdc1ca912bc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletBlueSilver_outline.png using Guid(dff42cb9db8e6f047becdc1ca912bc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e76ec7add2ac26b2d4933d4359212d4') in 0.021999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_wood02_128px_3.asset
+  artifactKey: Guid(1ce2e3d8b56aca44fa697b2691901014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_wood02_128px_3.asset using Guid(1ce2e3d8b56aca44fa697b2691901014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '752908bc70e4f20654ed82e9bd612878') in 0.008914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey2.png
+  artifactKey: Guid(301585c3d2902644b950eb75a6a4ae7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeGrey2.png using Guid(301585c3d2902644b950eb75a6a4ae7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ab6d3cc6c1f35b5f85b0c78ed9fca9') in 0.011552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Bullets/bulletRedSilver.png
+  artifactKey: Guid(4a4e13444fa1b8540ba54ba66df4b3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Bullets/bulletRedSilver.png using Guid(4a4e13444fa1b8540ba54ba66df4b3d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c5ad6d7f93e720a942bf8913e1c389b') in 0.011526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_wood01_128px_0.asset
+  artifactKey: Guid(0abb0f9128ca25a4396310309788a54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_wood01_128px_0.asset using Guid(0abb0f9128ca25a4396310309788a54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b58e3a5395146501ecf2d190dc8e3be') in 0.009331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kenney_topdownTanks/Vector/vector_tanks.svg
+  artifactKey: Guid(683d90bc98443cc498d569f7f08ac46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/Vector/vector_tanks.svg using Guid(683d90bc98443cc498d569f7f08ac46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2e1de1078b15378372f0bce5668f5a0') in 0.009357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TankConstructor/Images/Guns/SmallGunB.png
+  artifactKey: Guid(b3d5a576150683f42a18c0ceb3d0203f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Guns/SmallGunB.png using Guid(b3d5a576150683f42a18c0ceb3d0203f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bec8da925e7edf7f613dfde7f548702f') in 0.014010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TankConstructor/Images/MapTiles/C.png
+  artifactKey: Guid(d795e25ed3b6432418b86f0f86a3bdfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/MapTiles/C.png using Guid(d795e25ed3b6432418b86f0f86a3bdfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a645fc71d201eeda1649b1bc682c1410') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TankConstructor/Images/MapTiles/D.png
+  artifactKey: Guid(0a1ea645350607648b80c5b0dd09ce86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/MapTiles/D.png using Guid(0a1ea645350607648b80c5b0dd09ce86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b63124ace96d8e104448e4166112da47') in 0.023518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite5.png
+  artifactKey: Guid(39e728548eaeaa540a9559e90f835017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite5.png using Guid(39e728548eaeaa540a9559e90f835017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3a0e2e9eaa292b6b5d9543193a6d34e') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TankConstructor/Images/GunConnectors/GunConnectorB.png
+  artifactKey: Guid(318781217d5bb2845b7a6d4f62a7a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/GunConnectors/GunConnectorB.png using Guid(318781217d5bb2845b7a6d4f62a7a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '559739e82811d7dd2d549cbb39b43861') in 0.013166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/tankBeige_outline.png
+  artifactKey: Guid(bd5825db2120d2a4ebccda6e4c7e942a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/tankBeige_outline.png using Guid(bd5825db2120d2a4ebccda6e4c7e942a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c38f70fc9bc909bca5beb3640ff2832') in 0.012076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow2.png
+  artifactKey: Guid(32e6cdc6395ca09478b424b74c8613d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow2.png using Guid(32e6cdc6395ca09478b424b74c8613d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c373f4ea48a50619a0b0e8e7a89b52ed') in 0.011836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TankConstructor/Images/Hulls/SmallHullA.png
+  artifactKey: Guid(519db26ac7648064fabb6f100ecfe3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Hulls/SmallHullA.png using Guid(519db26ac7648064fabb6f100ecfe3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e2cb4dfe43a6ba1622dc5d8f8b25ed6') in 0.019291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TankConstructor/Images/MapTiles/H.png
+  artifactKey: Guid(54bcd318eaf248542aa1a8bf9b4d7ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/MapTiles/H.png using Guid(54bcd318eaf248542aa1a8bf9b4d7ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '044b6eca68124f210d92e72e5dbe782e') in 0.016109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TankConstructor/Images/Guns/MediumGunC.png
+  artifactKey: Guid(64b0356f87144f346aee6f16541b3baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Guns/MediumGunC.png using Guid(64b0356f87144f346aee6f16541b3baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ab40ce982c9b431c46d9cd52b3e77e0') in 0.017334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TankConstructor/Images/Guns/MediumGunA.png
+  artifactKey: Guid(dba2347742dc4884a9f385a783661418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Guns/MediumGunA.png using Guid(dba2347742dc4884a9f385a783661418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cd9741cd41760ad551006158906f7a5') in 0.013573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TankConstructor/Images/Guns/HeavyGunB.png
+  artifactKey: Guid(6093598df13cc0e409217e28d25d435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Guns/HeavyGunB.png using Guid(6093598df13cc0e409217e28d25d435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fd5f031a018a47e51fe290549482552') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/barrelRed.png
+  artifactKey: Guid(47140c62cb1b921498dee6a1211ac462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/barrelRed.png using Guid(47140c62cb1b921498dee6a1211ac462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96e70c47666440a13e6080ea45fd53a7') in 0.020526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/barrelGreen_outline.png
+  artifactKey: Guid(5b179d41a27416a4cb528cf6ef231268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/barrelGreen_outline.png using Guid(5b179d41a27416a4cb528cf6ef231268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91f9a0f946e96b822b1e64b1c3e8b227') in 0.012421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/barrelGreen.png
+  artifactKey: Guid(dfa12274c1052c6408824ed13120384a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/barrelGreen.png using Guid(dfa12274c1052c6408824ed13120384a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd02e1aaa58a68981e0b6612338fd2ba') in 0.012164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/tankBeige.png
+  artifactKey: Guid(11fa8bd8c19bf784aa4bde62a43b83f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/tankBeige.png using Guid(11fa8bd8c19bf784aa4bde62a43b83f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf07c1c4a693b2443c2afaf4c029c007') in 0.013746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TankConstructor/Images/Hulls/HeavyHullC.png
+  artifactKey: Guid(7d0f7900faab5fd4fa058828fd546492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Hulls/HeavyHullC.png using Guid(7d0f7900faab5fd4fa058828fd546492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db460ce025763a33ee7f0cf4911043c1') in 0.014029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/barrelBlack_outline.png
+  artifactKey: Guid(eecc6219d06613c4dac1d7b121c172aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/barrelBlack_outline.png using Guid(eecc6219d06613c4dac1d7b121c172aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29a3b8a77b0dce7d90ae676b9a5a5f30') in 0.012718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TankConstructor/Images/Hulls/HeavyHullB.png
+  artifactKey: Guid(4b2a9ffca2dd69347821d99550885818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Hulls/HeavyHullB.png using Guid(4b2a9ffca2dd69347821d99550885818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ec16958b93fef133659651a4ebc8b71') in 0.023876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/tracksSmall.png
+  artifactKey: Guid(0c107c20d946f3e408f9f56bca7db5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/tracksSmall.png using Guid(0c107c20d946f3e408f9f56bca7db5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e97df3ab53d9a0a53c1f549ae95eda97') in 0.018458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite3.png
+  artifactKey: Guid(32ab54e3d79823f4e94b16e6e18d1612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite3.png using Guid(32ab54e3d79823f4e94b16e6e18d1612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38d6e241dfdec15c27e99a003908ca90') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TankConstructor/Images/Hulls/HeavyHullD.png
+  artifactKey: Guid(353efa4030cebea40950b550b835d1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Hulls/HeavyHullD.png using Guid(353efa4030cebea40950b550b835d1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9c838baa3ba05409beb135ac0d9441a') in 0.014895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Tanks/barrelBlue_outline.png
+  artifactKey: Guid(954002038529f184889482b8f622336b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Tanks/barrelBlue_outline.png using Guid(954002038529f184889482b8f622336b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45cb40587bd93f0905487bf9b2aff837') in 0.013717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite2.png
+  artifactKey: Guid(4d276907bfe3f6e4e93cf193a283ff3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite2.png using Guid(4d276907bfe3f6e4e93cf193a283ff3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbace264d44a92cdae99029df2aa2db8') in 0.014286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TankConstructor/Images/Towers/HeavyTowerA.png
+  artifactKey: Guid(f1ccc39a0a85606479e4fcb6e5ae2aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Towers/HeavyTowerA.png using Guid(f1ccc39a0a85606479e4fcb6e5ae2aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1b5ae6f9c1d9da0a0883ee820945dea') in 0.016912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TankConstructor/Images/Projectiles/MediumShell.png
+  artifactKey: Guid(479b5200151b3674fbfd04f520cb302d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Projectiles/MediumShell.png using Guid(479b5200151b3674fbfd04f520cb302d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb9cb4d9e3f68f6793d9980840606530') in 0.013598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TankConstructor/Images/Towers/SmallTowerB.png
+  artifactKey: Guid(175673e2c2e70c74a901e9ad4cab8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Towers/SmallTowerB.png using Guid(175673e2c2e70c74a901e9ad4cab8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a977b946d1df900a5b1c104488569dc') in 0.016253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TankConstructor/Images/Tracks/TrackBFrame2.png
+  artifactKey: Guid(3a6903d20203376449f9e2d70eee36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Tracks/TrackBFrame2.png using Guid(3a6903d20203376449f9e2d70eee36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af7e06c410b25827ad8a564617b9f6bb') in 0.023721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TankConstructor/Images/Towers/HeavyTowerC.png
+  artifactKey: Guid(78696e24cbcb7d0468b6482fb15339e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Towers/HeavyTowerC.png using Guid(78696e24cbcb7d0468b6482fb15339e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bca15333788d6d4cad517c8691371b3e') in 0.013334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TankConstructor/Images/Projectiles/LightShell.png
+  artifactKey: Guid(dd2b712412a05644da4d741f11a4b1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Projectiles/LightShell.png using Guid(dd2b712412a05644da4d741f11a4b1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f15f3a20413dea8106eaf8003c67af81') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TankConstructor/Images/Platforms/PlatformA.png
+  artifactKey: Guid(aef66197c6706264793573979eddcf7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Platforms/PlatformA.png using Guid(aef66197c6706264793573979eddcf7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28929a5ba80ddba1a11aa18c7082f098') in 0.014727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TankConstructor/Images/Platforms/PlatformC.png
+  artifactKey: Guid(86d685eee34509a4580b0a78fee15065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Platforms/PlatformC.png using Guid(86d685eee34509a4580b0a78fee15065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d76f2fec2abad881dc7658a4a4c95cb') in 0.017072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TankConstructor/Images/Towers/SmallTowerA.png
+  artifactKey: Guid(d4560c6d6fc01cb42a07c7c64db28fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Towers/SmallTowerA.png using Guid(d4560c6d6fc01cb42a07c7c64db28fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d50f33430c55ec5d1c503abe95d3bb6') in 0.013643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow1.png
+  artifactKey: Guid(7dc4959e7251bc6489a7c41485f04e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow1.png using Guid(7dc4959e7251bc6489a7c41485f04e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97c2f918c018b0eb186bb1f69275e286') in 0.012351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_0.asset
+  artifactKey: Guid(c479e17a3f137984492dab618abc8f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_0.asset using Guid(c479e17a3f137984492dab618abc8f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6abaf0e78fb5b363068e7362518505b4') in 0.008532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px.png
+  artifactKey: Guid(3dcb8cd2d44a6f649a53a238011ec757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_dirt_snow_128px.png using Guid(3dcb8cd2d44a6f649a53a238011ec757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f95bc734f3308f3ace06680235c7d14d') in 0.026747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_4.asset
+  artifactKey: Guid(cf997ec1785b2b74e89efb9475324e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_gray_ice_128px_4.asset using Guid(cf997ec1785b2b74e89efb9475324e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '417eeafd7c6570c34ac4a51d185ec03b') in 0.017370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite4.png
+  artifactKey: Guid(b11188f059d98bb4b9df1c68cf56670d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeWhite4.png using Guid(b11188f059d98bb4b9df1c68cf56670d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a1f427c208d6334e0ff01449ae55958') in 0.011629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenney_topdownTanks/Vector/vector_tanks.swf
+  artifactKey: Guid(ad530417dd6ce3741922ca285779f671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/Vector/vector_tanks.swf using Guid(ad530417dd6ce3741922ca285779f671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17ddb8754536c208493b47b61181732d') in 0.005751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow3.png
+  artifactKey: Guid(b2efa281c84b9304793a1431748c13ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kenney_topdownTanks/PNG/Smoke/smokeYellow3.png using Guid(b2efa281c84b9304793a1431748c13ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c0c759405e7066c5002d7eb468ef2bb') in 0.012384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TankConstructor/Images/Guns/HeavyGunC.png
+  artifactKey: Guid(158d5ec7b74dbff49a6fd04c12225a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TankConstructor/Images/Guns/HeavyGunC.png using Guid(158d5ec7b74dbff49a6fd04c12225a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d906cda80b64b0b552d7495669b7835') in 0.014530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(spring)_0.asset
+  artifactKey: Guid(59494f53156936f4d883fccc039d118e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(spring)_0.asset using Guid(59494f53156936f4d883fccc039d118e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3bfc07406be1853986376036ce9bba8') in 0.008041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_128px_0.asset
+  artifactKey: Guid(4a9c0e72c143e5f44af9a3661ce86abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TooCubeForest/images/Forest_terrain_slope_dirt_128px_0.asset using Guid(4a9c0e72c143e5f44af9a3661ce86abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab93643ccfd81d0bebdb219843baa675') in 0.008103 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 4452.
+Memory consumption went from 89.1 MB to 88.4 MB.
+Total: 3.376000 ms (FindLiveObjects: 0.248600 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.779700 ms  DeleteObjects: 0.232000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 606.498009 seconds.
+  path: Assets/Script/movement/MovementController.cs
+  artifactKey: Guid(8c53a66c7619da641a0df22490d8d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/movement/MovementController.cs using Guid(8c53a66c7619da641a0df22490d8d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd83c0214cc62b4040c9e1be021c4b2b1') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.971566 seconds.
+  path: Assets/Script/movement/MovementController.cs
+  artifactKey: Guid(8c53a66c7619da641a0df22490d8d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/movement/MovementController.cs using Guid(8c53a66c7619da641a0df22490d8d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f06120d8370296b12305a23f349b4f00') in 0.006521 seconds 
