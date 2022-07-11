@@ -12,6 +12,8 @@ TagManager:
   - canAttack
   - TaskCanvas
   - AudioCon
+  - CanDestroy
+  - CantDestroy
   layers:
   - Default
   - TransparentFX
