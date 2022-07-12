@@ -11,6 +11,7 @@ public class MovementController : MonoBehaviour
     public float MoveHorizontal;
     public float MoveVertical;
 
+
     private void Start()
     {
         Track = GetComponentsInChildren<Animator>();

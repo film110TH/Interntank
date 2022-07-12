@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.73023695, g: 0.7889807, b: 0.8498594, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -844,9 +844,11 @@ MonoBehaviour:
   username: film
   chatpanel: {fileID: 175441666}
   textObject: {fileID: 8537582667147062829, guid: e042892eafbe13e48ad59c8188c09e41, type: 3}
+  chatboxcanvas: {fileID: 0}
   chatbox: {fileID: 1248533052}
   playerMessage: {r: 1, g: 1, b: 1, a: 1}
   info: {r: 0.048089504, g: 0.7882353, b: 1, a: 1}
+  mainPlayer: {fileID: 0}
   maxMessage: 25
   messagesList: []
 --- !u!4 &1224374398
@@ -1349,6 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
