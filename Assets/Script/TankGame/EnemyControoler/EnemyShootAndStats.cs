@@ -11,9 +11,17 @@ public class EnemyShootAndStats : MonoBehaviour
     public float speed;
 
     public int hp = 1;
+
+    public GameObject Textpopprefab;
+    public int PointstoGivePlayer;
+    public string Texttoshow;
+
+    public ScoreManeger ScoreManeger;
+
     void Start()
     {
          StartCoroutine(CountDowntoshoot());
+         ScoreManeger = FindObjectOfType<ScoreManeger>();
     }
 
     // Update is called once per frame
@@ -36,11 +44,25 @@ public class EnemyShootAndStats : MonoBehaviour
         rb.AddForce(shootpoin.up * speed, ForceMode2D.Impulse);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Bullet") && collision.gameObject.name == "Plazm")
+        if (collision.gameObject.CompareTag("Bullet") && collision.gameObject.name == "Pbullet(Clone)")
         {
+            spawnText();
+            ScoreManeger.Score += PointstoGivePlayer;
             Destroy(this.gameObject);
         }
+    }
+
+    public void spawnText()
+    {
+        GameObject pointsText = Instantiate(Textpopprefab);
+        if(pointsText.GetComponent<Textonspot>() != null)
+        {
+            var givePointsText = pointsText.GetComponent<Textonspot>();
+            givePointsText.DisplayPoints = PointstoGivePlayer;
+            givePointsText.DisplayText = Texttoshow;
+        }
+        pointsText.transform.position = gameObject.transform.position;
     }
 }

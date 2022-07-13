@@ -26,10 +26,8 @@ public class Enemycontroller : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CanDestroy") || collision.gameObject.CompareTag("CantDestroy"))
-        {
+        if(!collision.gameObject.CompareTag("Player"))
             this.transform.eulerAngles = new Vector3(0f, 0f, Dir[Random.Range(0, 4)]);
-        }
     }
 
     IEnumerator ChangeCount()

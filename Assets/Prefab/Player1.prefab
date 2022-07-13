@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 4824638387196543615}
   - component: {fileID: 4824638387196543612}
   - component: {fileID: 4824638387196543614}
-  - component: {fileID: 4824638387196543489}
   - component: {fileID: 4824638387196543488}
+  - component: {fileID: 4824638387196543489}
   - component: {fileID: 4824638387196543491}
+  - component: {fileID: -8582003712387473862}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,23 +119,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.081643, y: 1.6397343}
   m_EdgeRadius: 0.01
---- !u!114 &4824638387196543489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4824638387196543613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c53a66c7619da641a0df22490d8d4d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  rb: {fileID: 0}
-  Track: []
-  MoveHorizontal: 0
-  MoveVertical: 0
 --- !u!50 &4824638387196543488
 Rigidbody2D:
   serializedVersion: 4
@@ -156,6 +140,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4824638387196543489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4824638387196543613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c53a66c7619da641a0df22490d8d4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  rb: {fileID: 0}
+  Track: []
+  MoveHorizontal: 0
+  MoveVertical: 0
 --- !u!114 &4824638387196543491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +171,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabbullet: {fileID: 3844885235283155504, guid: 738ccd41bf29c2c49a9bb478f9c73e75, type: 3}
   shootpoin: {fileID: 4824638387226751047}
-  speed: 10
+  speed: 5
+  countBullet: 1
+  checkbullet: {fileID: 0}
+--- !u!114 &-8582003712387473862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4824638387196543613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34022092fd140614981c7cdbeb5b3a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 3
+  playerspawner: {fileID: 0}
 --- !u!1 &4824638387226751045
 GameObject:
   m_ObjectHideFlags: 0

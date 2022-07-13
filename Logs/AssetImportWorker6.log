@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Metaverse XR/Documents/GitHub/Interntank
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54903
+Successfully changed project path to: C:/Users/Metaverse XR/Documents/GitHub/Interntank
+C:/Users/Metaverse XR/Documents/GitHub/Interntank
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 122.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Metaverse XR/Documents/GitHub/Interntank/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005246 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008219 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Metaverse XR\Documents\GitHub\Interntank\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Metaverse XR\Documents\GitHub\Interntank\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (0.8 MB). Loaded Objects now: 6467.
+Memory consumption went from 305.1 MB to 304.3 MB.
+Total: 3.399100 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.236900 ms MarkObjects: 2.577400 ms  DeleteObjects: 0.240600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81364.959330 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_cave_1024.png
+  artifactKey: Guid(04aa30e7bae8e5c4bb6718fe6142845d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_cave_1024.png using Guid(04aa30e7bae8e5c4bb6718fe6142845d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca21e72f36ad580c1eaa76049fa5fc8e') in 0.220932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_desert_night_1024.png
+  artifactKey: Guid(2f5578e12e77c8e4688c963de6419e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_desert_night_1024.png using Guid(2f5578e12e77c8e4688c963de6419e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0841786ec68ae82115358b04cb3380') in 0.073733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.334424 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_desert_sunset_1024.png
+  artifactKey: Guid(2d90c333e68fff641828864d6667fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_desert_sunset_1024.png using Guid(2d90c333e68fff641828864d6667fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f5ba0a660c6d9c409d357b29863b85') in 0.059982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_mountains_night_1024.png
+  artifactKey: Guid(a0c207a4ed112f043ad721e46b8cdd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_mountains_night_1024.png using Guid(a0c207a4ed112f043ad721e46b8cdd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8911ab0fa2ceb8b218de59dcee4dc8bb') in 0.066006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_mountains_night2_1024.png
+  artifactKey: Guid(195dc6169a79d9b40a580b28beadfec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_mountains_night2_1024.png using Guid(195dc6169a79d9b40a580b28beadfec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2c8bb3fc6bb02ef20103548d0a7c37') in 0.064390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_mountains_noon_1024.png
+  artifactKey: Guid(9868806c4e6cbac43b1fe129e8d1e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_mountains_noon_1024.png using Guid(9868806c4e6cbac43b1fe129e8d1e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1337441ea80ea5226313dfc22770ce') in 0.062852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(fall).png
+  artifactKey: Guid(ceb3b251f8f266d4b9a051832f867d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(fall).png using Guid(ceb3b251f8f266d4b9a051832f867d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3070088df9992af99460433e15ed811') in 0.030255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TooCubeForest/backgrounds/BG_mountains_sunset_1024.png
+  artifactKey: Guid(b147266f8e2d8e849ad06136e78d4e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/backgrounds/BG_mountains_sunset_1024.png using Guid(b147266f8e2d8e849ad06136e78d4e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68356afc15f0d1edd95965c662078f64') in 0.060719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244115 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_covers(summer).png
+  artifactKey: Guid(34f1ec7fa6e658548a3e762e72534378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/images/Forest_deco_covers(summer).png using Guid(34f1ec7fa6e658548a3e762e72534378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accfaf32389edbdb8b2e557d34880f7b') in 0.029079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.323060 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px.png
+  artifactKey: Guid(0a8f4ef9aea036048a18663328e8e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(fall)02_128px.png using Guid(0a8f4ef9aea036048a18663328e8e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befcc5d8e90c1f4b83a51c2032d11bdc') in 0.036692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305738 seconds.
+  path: Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px.png
+  artifactKey: Guid(83c2725403972d94a913c6549e48b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/images/Forest_deco_leaves(winter)01_128px.png using Guid(83c2725403972d94a913c6549e48b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc996af101e344c08adf703dffb5d3c') in 0.037580 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

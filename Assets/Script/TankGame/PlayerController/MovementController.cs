@@ -27,13 +27,13 @@ public class MovementController : MonoBehaviour
         rb.velocity = new Vector3(MoveHorizontal, MoveVertical, 0f);
 
 
-        if (MoveVertical > 0)
+        if (Input.GetKey(KeyCode.W))
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        else if (MoveVertical < 0)
+        else if (Input.GetKey(KeyCode.S))
             transform.eulerAngles = new Vector3(0f, 0f, 180f);
-        else if (MoveHorizontal > 0)
+        else if (Input.GetKey(KeyCode.D))
             transform.eulerAngles = new Vector3(0f, 0f,  270f);
-        else if (MoveHorizontal < 0)
+        else if (Input.GetKey(KeyCode.A))
             transform.eulerAngles = new Vector3(0f, 0f, 90f);
 
         if(MoveHorizontal !=0 || MoveVertical != 0)
