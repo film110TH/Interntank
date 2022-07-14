@@ -17,6 +17,7 @@ public class EnemyShootAndStats : MonoBehaviour
     public string Texttoshow;
 
     public ScoreManeger ScoreManegerr;
+    public AudioSource audio;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class EnemyShootAndStats : MonoBehaviour
             spawnText();
             ScoreManegerr.Score += PointstoGivePlayer;
             ScoreManegerr.enemytikill--;
+            audio.Play();
             Destroy(this.gameObject);
        }
     }

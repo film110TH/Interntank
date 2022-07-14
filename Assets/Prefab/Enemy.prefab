@@ -438,7 +438,8 @@ MonoBehaviour:
   Textpopprefab: {fileID: 7192629050557064808, guid: 4bfc7c899aee96b4fb07001673e80b49, type: 3}
   PointstoGivePlayer: 100
   Texttoshow: RR
-  ScoreManeger: {fileID: 0}
+  ScoreManegerr: {fileID: 0}
+  audio: {fileID: 515927675770100913, guid: 838f5296924850240ae26cb4eead9456, type: 3}
 --- !u!114 &1287857016
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,13 +38,12 @@ public class EnemySpawn : MonoBehaviour
     IEnumerator VFXSpawn()
     {
         int Allspawnpoint =  EnemySpawnpoin.Length;
-        Debug.Log(Allspawnpoint);
         rand = Random.Range(0, Allspawnpoint);
         vfxspawn();
         yield return new WaitForSeconds(2.5f);
         StartCoroutine(countSpawnEnemy());
     }
-
+    
     void vfxspawn()
     {
         GameObject Vfx = Instantiate(EnemySpawnVFX, EnemySpawnpoin[rand].transform.position, EnemySpawnpoin[rand].transform.rotation);
