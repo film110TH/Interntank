@@ -16,23 +16,30 @@ public class EnemyShootAndStats : MonoBehaviour
     public int PointstoGivePlayer;
     public string Texttoshow;
 
-    public ScoreManeger ScoreManeger;
+    public ScoreManeger ScoreManegerr;
 
     void Start()
     {
          StartCoroutine(CountDowntoshoot());
-         ScoreManeger = FindObjectOfType<ScoreManeger>();
+         ScoreManegerr = FindObjectOfType<ScoreManeger>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+       if(hp <= 0)
+       {
+            spawnText();
+            ScoreManegerr.Score += PointstoGivePlayer;
+            ScoreManegerr.enemytikill--;
+            Destroy(this.gameObject);
+       }
     }
 
     IEnumerator CountDowntoshoot()
     {
-        yield return new WaitForSeconds(3f);
+        float ran = Random.Range(1, 3);
+        yield return new WaitForSeconds(ran);
         Shooting();
         StartCoroutine(CountDowntoshoot());
     }
@@ -46,12 +53,11 @@ public class EnemyShootAndStats : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet") && collision.gameObject.name == "Pbullet(Clone)")
+        if (collision.gameObject.CompareTag("Bullet") && collision.gameObject.name == "Pbullet(Clone)"&& !collision.gameObject.CompareTag("Hitbox"))
         {
-            spawnText();
-            ScoreManeger.Score += PointstoGivePlayer;
-            Destroy(this.gameObject);
+            hp--;              
         }
+
     }
 
     public void spawnText()

@@ -7,7 +7,6 @@ public class EnemySpawn : MonoBehaviour
     public GameObject[] EnemySpawnpoin;
     public GameObject[] Enemyprefab;
 
-    public GameObject[] Enemycount;
     public GameObject EnemySpawnVFX;
 
     public int EnemyCount = 3;
@@ -20,23 +19,27 @@ public class EnemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Enemycount = GameObject.FindGameObjectsWithTag("Enemy");      
     }
 
     IEnumerator countSpawnEnemy()
     {
         spawnEnemy();
         yield return new WaitForSeconds(1f);
-        if (Enemycount.Length < EnemyCount)
+
+        if(EnemyCount-1 > 0)
         {
             StartCoroutine(VFXSpawn());
+            EnemyCount--;
         }
         
+           
     }
 
     IEnumerator VFXSpawn()
     {
-        rand = Random.Range(0, 3);
+        int Allspawnpoint =  EnemySpawnpoin.Length;
+        Debug.Log(Allspawnpoint);
+        rand = Random.Range(0, Allspawnpoint);
         vfxspawn();
         yield return new WaitForSeconds(2.5f);
         StartCoroutine(countSpawnEnemy());
@@ -50,7 +53,8 @@ public class EnemySpawn : MonoBehaviour
 
 
     void spawnEnemy()
-    {                       
-            GameObject enemy = Instantiate(Enemyprefab[0], EnemySpawnpoin[rand].transform.position, EnemySpawnpoin[rand].transform.rotation);     
+    {
+            int ra = Random.Range(0, 4);
+            GameObject enemy = Instantiate(Enemyprefab[ra], EnemySpawnpoin[rand].transform.position, EnemySpawnpoin[rand].transform.rotation);     
     }
 }

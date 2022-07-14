@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Testchat.unity
-    guid: 5ba3a5e9e0e621345b39b8afdbd347a6
+    path: Assets/TankScenes/Menu.unity
+    guid: 8a27cf059db8a574f899439ee0f93509
+  - enabled: 1
+    path: Assets/TankScenes/stage1.unity
+    guid: 03927dbb938a4ce4292d17ea8e77a0b8
+  - enabled: 1
+    path: Assets/TankScenes/stage2.unity
+    guid: e38b01d0cc35b7642bca2e2dfd37b902
   m_configObjects: {}

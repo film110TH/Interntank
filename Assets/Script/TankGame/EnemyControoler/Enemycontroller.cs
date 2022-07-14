@@ -22,13 +22,15 @@ public class Enemycontroller : MonoBehaviour
         rb.velocity = shootingPoin.up * speed;
 
     }
-       
+
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(!collision.gameObject.CompareTag("Player"))
+        if (!collision.gameObject.CompareTag("Player"))
             this.transform.eulerAngles = new Vector3(0f, 0f, Dir[Random.Range(0, 4)]);
     }
+
+
 
     IEnumerator ChangeCount()
     {

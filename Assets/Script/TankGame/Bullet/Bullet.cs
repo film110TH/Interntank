@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
             GameObject pa = Instantiate(pratical, poin.position, poin.rotation);
             Destroy(pa, 3f);
             GameObject hit = Instantiate(hitbox, poin.position, poin.rotation);
-            Destroy(hit, 1f);
+            Destroy(hit, 0.1f);
             Destroy(this.gameObject);
         }
 

@@ -10,6 +10,13 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         playerspawner = FindObjectOfType<playerspawner>();
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            playerspawner.hp--;
+            playerspawner.Spawninpoin();
+            Destroy(this.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,5 +28,6 @@ public class PlayerStats : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
 
 }
