@@ -24,16 +24,16 @@ public class MovementController : MonoBehaviour
         MoveHorizontal = Input.GetAxis("Horizontal");
         MoveVertical = Input.GetAxis("Vertical");
 
-        rb.velocity = new Vector3(MoveHorizontal, MoveVertical, 0f);
+        rb.velocity = new Vector3(MoveHorizontal, MoveVertical, 0f) * speed;
 
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow))
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             transform.eulerAngles = new Vector3(0f, 0f, 180f);
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             transform.eulerAngles = new Vector3(0f, 0f,  270f);
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             transform.eulerAngles = new Vector3(0f, 0f, 90f);
 
         if(MoveHorizontal !=0 || MoveVertical != 0)

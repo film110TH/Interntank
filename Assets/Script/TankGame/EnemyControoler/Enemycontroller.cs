@@ -26,8 +26,13 @@ public class Enemycontroller : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Player"))
+        if (!collision.gameObject.CompareTag("Player") && (!collision.gameObject.CompareTag("Bullet")) && (!collision.gameObject.CompareTag("Item")))
             this.transform.eulerAngles = new Vector3(0f, 0f, Dir[Random.Range(0, 4)]);
+
+        //if (!collision.gameObject.CompareTag("player"))
+        //{
+        //    this.transform.eulerAngles = new Vector3(0f, 0f, Dir[Random.Range(0, 4)]);
+        //}
     }
 
 

@@ -7,6 +7,7 @@ public class EnemyShootAndStats : MonoBehaviour
 
     public GameObject prefabbullet;
     public Transform shootpoin;
+    public Itemspawn itemspawn;
 
     public float speed;
 
@@ -22,6 +23,7 @@ public class EnemyShootAndStats : MonoBehaviour
     void Start()
     {
          StartCoroutine(CountDowntoshoot());
+        itemspawn = FindObjectOfType<Itemspawn>(); 
          ScoreManegerr = FindObjectOfType<ScoreManeger>();
     }
 
@@ -34,6 +36,7 @@ public class EnemyShootAndStats : MonoBehaviour
             ScoreManegerr.Score += PointstoGivePlayer;
             ScoreManegerr.enemytikill--;
             audio.Play();
+            itemspawn.itemcounttospaen--;
             Destroy(this.gameObject);
        }
     }

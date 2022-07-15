@@ -38,9 +38,7 @@ public class ScoreManeger : MonoBehaviour
         if(enemytikill <=0&& spawner.hp != 0)
         {
             Endgame();
-            PlayerPrefs.SetInt("Hptoplay", spawner.hp);
-            PlayerPrefs.SetFloat("Scoretoplayer", Score);
-            PlayerPrefs.Save();
+            
         }
             
 
@@ -56,6 +54,9 @@ public class ScoreManeger : MonoBehaviour
 
     void Endgame()
     {
+        PlayerPrefs.SetInt("Hptoplay", spawner.hp);
+        PlayerPrefs.SetFloat("Scoretoplayer", Score);
+        PlayerPrefs.Save();
         checkhighscore();
         GameoverUI.SetActive(true);
         if(spawner.hp <= 0)
